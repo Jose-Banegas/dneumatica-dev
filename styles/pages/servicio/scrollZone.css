@@ -88,8 +88,13 @@
 
 @media (max-width: 1024px) {
 
+	.scroll-titulo-general {
+		margin-bottom: 0;
+	}
+
 	.scroll-titulo-general h2 {
 	font-size: 24px;
+	text-align: center;
 }
 
 .columnas-scroll {
@@ -104,6 +109,10 @@
 	align-items: center
 }
 
+.rosca img {
+	width: 60%;
+}
+
 .linea-scroll {
 	height: 90%;
 
@@ -114,7 +123,7 @@
 
 .cuadro {
 	width: 90%;
-	margin-left: 0;
+	margin-left: -10%;
 }
 
 .cuadro p {
@@ -127,7 +136,12 @@
 	height: 100%;
 }
 
-/* layout desktop */
+/* layout mobile */
+
+.columnas-scroll {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 
 .l1 {
 	grid-column: 1 / 2;
@@ -162,32 +176,32 @@
 
 
 .n1 {
-	grid-column: 2 / 6;
+	grid-column: 2 / 8;
 	grid-row: 1;
 }
 
 .n2 {
-	grid-column: 2 / 6;
+	grid-column: 2 / 8;
 	grid-row: 2;
 }
 
 .n3 {
-	grid-column: 2 / 6;
+	grid-column: 2 / 8;
 	grid-row: 3;
 }
 
 .n4 {
-	grid-column: 2 / 6;
+	grid-column: 2 / 8;
 	grid-row: 4;
 }
 
 .n5 {
-	grid-column: 2 / 6;
+	grid-column: 2 / 8;
 	grid-row: 5;
 }
 
 .n6 {
-	grid-column: 2 / 6;
+	grid-column: 2 / 8;
 	grid-row: 6;
 }
 
