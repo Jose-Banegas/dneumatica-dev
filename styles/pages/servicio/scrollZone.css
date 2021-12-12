@@ -88,8 +88,16 @@
 
 @media (max-width: 1024px) {
 
+	.espacio-i {
+		align-items: start;
+	}
+
+	.espacio-d {
+		align-items: start;
+	}
+
 	.scroll-titulo-general {
-		margin-bottom: 0;
+		margin-bottom: 30px;
 	}
 
 	.scroll-titulo-general h2 {
@@ -103,10 +111,10 @@
 
 .rosca {
 	height: 10%;
-	margin-top: 50%;
 	display: flex;
 	justify-content: center;
-	align-items: center
+	align-items: center;
+	margin-top: 0;
 }
 
 .rosca img {
@@ -114,7 +122,7 @@
 }
 
 .linea-scroll {
-	height: 90%;
+	height: 100%;
 
 	display: flex;
 
@@ -129,6 +137,7 @@
 .cuadro p {
 	margin: 0;
 	font-size: 18px;
+	line-height: 27px;
 }
 
 .linea-crecedora {
