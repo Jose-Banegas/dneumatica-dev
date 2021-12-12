@@ -149,7 +149,7 @@
 /* layout mobile */
 
 .columnas-scroll {
-	height: 2700px;
+	height: 2800px;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
