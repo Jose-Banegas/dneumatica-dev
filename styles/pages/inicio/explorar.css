@@ -1,0 +1,120 @@
+.sectionExplorar {
+	display: flex;
+	background-image: url("../../../img/inicio/camionblanco.png");
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	justify-content: center;
+	height: auto;
+	align-items: center;
+}
+
+.box-explorar {
+	background-color: rgba(255, 255, 255, .6);
+	height: auto;
+	width: 90%;
+	border-radius: 25px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 20px auto;
+	
+}
+
+.explorar-l {
+	font-size: 25px;
+	color: black;
+	width: 80%;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.explorar-l h3 {
+	font-weight: bold;
+	text-decoration: underline 4px var(--verde);
+	text-underline-pisition: under;
+	
+}
+
+
+.btn-explorar {
+	width: 90%;
+	max-width: 334px;
+	margin: 0 auto;
+	height: 65px;
+	background-color: #000000;
+	border: solid 3px;
+	border-color: var(--verde);
+	border-radius: 100px;
+	color: white;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.explorar-r {
+	width: 95%;
+	height: 90%;
+	position: relative;
+	margin: auto;
+	
+
+
+}
+
+.taller1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+}
+
+.taller2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+
+/* <= 1200px */
+
+@media (max-width: 1200px) {
+	.explorar-r .taller1 {
+		bottom: 30px;
+		width: 80%;	
+	}
+	.explorar-r .taller2 {
+		top: 30px;
+		width: 80%;	
+	}
+}
+
+
+/* Mobile */
+
+@media (max-width: 1023px) {
+
+	.explorar-l {
+		display: block;
+	}
+	
+	.explorar-l h3 {
+		text-decoration: underline 4px var(--verdeManzana);
+		text-underline-pisition: under;
+	
+	}
+
+	.explorar-r .taller1 {
+		position: static;
+		width: 100%
+	}
+
+	.explorar-r .taller2 {
+		position: static;
+		width: 100%;
+	}
+
+
+
+
+
+}

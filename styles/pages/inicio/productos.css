@@ -1,0 +1,43 @@
+.conteiner-marcas {
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	height: 600px;
+	color: #000000;
+}
+
+.sectionProductos h2 {
+	font-size: 36px;
+	text-align: center;
+}
+
+.sectionProductos p {
+	font-size: 24px;
+	text-align: center;
+}
+
+.sectionProductos a {
+	color: #000000;
+}
+
+.img-marcas-container {
+	display: grid;
+	width: 100%;
+	height: 250px;
+
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: center;
+}
+
+.img-marcas-container img {
+	margin: auto;
+}
+
+/* Mobile */
+
+@media (max-width: 1023px) {
+
+	.img-marcas-container {
+		grid-template-columns: 1fr 1fr;
+	}
+}

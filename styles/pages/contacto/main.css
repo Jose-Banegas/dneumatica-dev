@@ -1,0 +1,33 @@
+/* titulo */
+
+main {
+	width: 85%;
+	margin: 0 auto;
+	color: #000000;
+
+}
+
+.container-titulo {
+	width: 50%;
+}
+
+.container-titulo h2 {
+	font-size: 36px;
+	font-weight: bold;
+	font-weight: bold;
+	text-decoration: underline 4px var(--verde);
+	text-underline-pisition: under;
+}
+
+/* contactos */
+
+.linea {
+	width: 100%;
+	border: 1px solid;
+	border-color: var(--verde);
+}
+
+.container-contactos {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}

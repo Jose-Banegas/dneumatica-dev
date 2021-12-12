@@ -1,0 +1,28 @@
+.sectionCalidad {
+	display: flex;
+	background-image: url("../../../img/inicio/mercedes.png");
+	background-size: cover;
+	background-position: center;
+	justify-content: space-around;
+	height: 600px;
+	align-items: center;
+}
+
+.box-calidad {
+	width: 330px;
+	height: 476px;
+	background-color: rgba(0, 0, 0, .7);
+	border-radius: 15px;
+	padding: 30px;
+}
+
+.box-calidad h2 {
+	font-size: 36px;
+	text-align: center;
+}
+
+.box-calidad p {
+	font-size: 26px;
+}
+
+

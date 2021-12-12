@@ -1,0 +1,92 @@
+/* Desktop */
+
+.navbar {
+	background-color: #000000;
+	height: 97px;
+	width: 100%;
+}
+
+.contenedor-nav {
+	width: 100%;
+	height: 100%;
+	max-width: 975px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+
+}
+
+.logo img{
+	height: 100%;
+}
+
+.menu-nav {
+	display: none;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+
+.nav ul li:hover {
+	font-weight: bold;
+}
+
+.sub {
+	text-decoration: underline 4px var(--verde);
+	text-underline-position: under; 
+
+	/* Este subrayado no es el ideal, en el diseño de Rama estaba más separado */
+}
+
+/* Mobile */
+
+@media(max-width: 1023px) {
+	.navbar {
+		height: 72px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.menu-nav {
+		display: grid !important;
+		width: 72px;
+		height: 47px;
+		justify-self: right;
+		cursor: pointer;
+	}
+
+	.line {
+		background-color: #ffffff;
+		width: 42px;
+		height: 5px;
+		border-radius: 5px;
+		align-self: center;
+	}
+
+	.navbar-items {
+		position: absolute;
+		width: 100%;
+	}
+}
+
+/* Mobile */
+
+@media(max-width: 1023px) {
+	.ul-nav {
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		height: 100%;
+		margin: 0 auto;	
+		padding: 0;
+		padding-top: 30px;
+		font-size: 24px;
+		text-align: center;
+	}
+
+} 
