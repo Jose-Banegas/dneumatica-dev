@@ -148,6 +148,7 @@
 /* layout mobile */
 
 .columnas-scroll {
+	height: 2400px;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
