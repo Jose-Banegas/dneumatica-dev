@@ -5,6 +5,8 @@ body {
 
 .decoracion {
 	width: 100%;
+	height: 90px !important;
+	
 }
 
 .main-contacto h1 {
@@ -104,6 +106,10 @@ body {
 	text-align: center;
 }
 
+.btn-container:hover {
+	font-weight: bold;
+}
+
 .img-proceso {
 	width: 100%;
 	border: solid 2px var(--verdeManzana);
@@ -159,3 +165,6 @@ body {
 		margin-bottom: 40px;
 	}	
 }
+
+/* fix barra superior */
+

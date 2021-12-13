@@ -10,6 +10,11 @@ main h2 {
 	text-underline-position: under;
 }
 
+.vector {
+	height: 60px;
+
+}
+
 .main-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -64,8 +69,16 @@ main h2 {
 	
 }
 
+.btn-contacto:hover {
+	font-weight: bold;
+}
+
 .pdf a {
 	cursor: pointer;
+}
+
+.pdf a:hover {
+	font-weight: bold;
 }
 
 /* Mobile */

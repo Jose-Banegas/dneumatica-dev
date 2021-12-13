@@ -8,6 +8,10 @@ main {
 
 }
 
+.vector {
+	height: 60px;
+}
+
 .container-titulo {
 	width: 50%;
 }

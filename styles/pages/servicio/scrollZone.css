@@ -241,6 +241,10 @@
 	height: 300px;
 }
 
+.btn-cont a:hover {
+	font-weight: bold;
+}
+
 .dejanos {
 	background-color: var(--verde);
 	border-radius: 40px;

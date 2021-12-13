@@ -88,6 +88,10 @@
 
 }
 
+.a-conoce:hover {
+	font-weight: bold;
+}
+
 .a-catalogo {
 	
 	height: 50px;
@@ -106,7 +110,9 @@
 
 }
 
-
+.a-catalogo:hover {
+	font-weight: bold;
+}
 
 .a-conoce p {
 	font-size: 42px;
@@ -200,7 +206,12 @@
 		.a-catalogo p {
 		font-size: 25px;
 		margin: 0;
-	}	
+	}
+
+	.contactos-main img {
+		width: 25px;
+		margin-top: -20px;
+	}
 
 }
 
