@@ -23,7 +23,7 @@
 
 .cuadro {
 	width: 95%;
-
+	border: solid 2px var(--verde);
 	min-height: 70%;
 	background-color: #0B0F05;
 	border-radius: 23px;
