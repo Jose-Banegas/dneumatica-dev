@@ -84,13 +84,41 @@
 	align-items: center;
 	justify-content: space-around;
 	padding: 0 30px;
+	cursor: pointer;
 
 }
+
+.a-catalogo {
+	
+	height: 50px;
+	width: 90%;
+	max-width: 300px;
+	background-color: #000000;
+	border: solid 3px;
+	border-color: var(--verde);
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+}
+
+
 
 .a-conoce p {
 	font-size: 42px;
 	margin: 0;
 }
+
+.a-catalogo p {
+	font-size: 42px;
+	margin: 0;
+	color: white;
+}
+
 
 .box-bot img {
 	height: 50px;
@@ -148,6 +176,10 @@
 	
 	}
 
+	.a-catalogo {
+		margin-bottom: 30px;
+	}
+
 	/* explorar */
 
 	.sectionExplorar .box-explorar {
@@ -165,6 +197,10 @@
 		margin: 0;
 	}
 
+		.a-catalogo p {
+		font-size: 25px;
+		margin: 0;
+	}	
 
 }
 

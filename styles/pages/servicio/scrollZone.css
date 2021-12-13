@@ -220,3 +220,34 @@
 
 
 }
+
+/* box */
+
+.box-final {
+	width: 90%;
+	background-color: #0B0F05;
+	border-radius: 20px;
+	color: var(--verde);
+	padding: 10px;
+	margin: 0 auto;
+	font-size: 30px;
+	text-align: center;
+}
+
+.btn-cont {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+}
+
+.dejanos {
+	background-color: var(--verde);
+	border-radius: 40px;
+	width: 50%;
+	max-width: 380px;
+	padding: 20px;
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+}

@@ -51,15 +51,28 @@ function activarModal(imagen) {
 
 
 thumb1.onclick = () => {
-	activarModal(img1);
+	if (window.innerWidth >= 1024) {
+		activarModal(img1);
+		
+	}
 }
 thumb2.onclick = () => {
+	if (window.innerWidth >= 1024) {
+
 	activarModal(img2);
+
+
+	}
 }
 thumb3.onclick = () => {
-	activarModal(img3);
+	if (window.innerWidth >= 1024) {
+		activarModal(img3);
+		
+	}
 }
 thumb4.onclick = () => {
+if (window.innerWidth >= 1024) {
 	activarModal(img4);
+}
 }
 
