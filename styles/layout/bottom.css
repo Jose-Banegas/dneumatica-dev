@@ -1,7 +1,8 @@
 .bottom-container {
-	padding-top: 30px;
+
 	background-color: #000000;
 	color: #ffffff;
+	padding-bottom: 10px;
 }
 
 .footer-top {
@@ -67,7 +68,17 @@
 
 	width: 100%;
 
+
 }
+
+.bandera {
+
+	width: 18px !important;
+	vertical-align: middle;
+	margin-right: 5px;
+
+}
+
 
 .contactos li {
 	font-size: 22px;
@@ -78,4 +89,75 @@
 .contactos li img {
 	width: 20px;
 	margin-right: 5px;
+}
+
+.izq-container h3 .span-lujan {
+	text-decoration: underline 4px var(--verde) !important;
+	text-underline-position: under !important;	
+}
+
+
+@media(max-width: 1365px) {
+	.bandera {
+		display: none;
+	}
+}
+
+/* mobile helper (la mayor parte del código esta en /js/bottom.js) */
+
+@media (max-width: 1023px) {
+
+
+	.bandera {
+		display: initial;
+	}
+	.izq-container h3 {
+		font-size: 18px;
+		margin: 0;
+	}
+
+	.izq-container h2 {
+		font-size: 14px;
+	}
+	.ul-contain {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.contactos {
+		margin: 0 auto;
+	}
+
+	.contactos li {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.footer-der h3 {
+	font-size: 18px;
+	text-decoration: underline 4px var(--verde) !important;
+	text-underline-position: under !important;
+}
+
+.footer-der p {
+	font-size: 14px;
+}
+
+.p-horario {
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center !important;
+}
+
+}
+
+
+
+/* extra small */
+
+@media (max-width: 399px) {
+	.bandera {
+		display: none;
+	}
 }

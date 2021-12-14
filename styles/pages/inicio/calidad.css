@@ -23,6 +23,13 @@
 
 .box-calidad p {
 	font-size: 26px;
+	text-align: center;
 }
 
+.especial {
+	margin-top: 50px;
+}
 
+.hEspecial {
+	margin-top: 65px;
+}
