@@ -139,6 +139,10 @@
 	color: #ffffff !important;
 }
 
+.h1-verde {
+	color: var(--verde);
+}
+
 /* Mobile */
 
 @media(max-width: 1023px) {

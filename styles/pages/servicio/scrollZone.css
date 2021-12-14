@@ -57,6 +57,18 @@
 	justify-content: center;
 }
 
+.espacio-i img {
+	width: 100%;
+	border-radius: 25px;
+	border: solid 3px var(--verdeManzana);
+}
+
+.espacio-d img {
+	width: 100%;
+	border-radius: 25px;
+	border: solid 3px var(--verdeManzana);
+}
+
 .rosca {
 	height: 33.3%;
 
