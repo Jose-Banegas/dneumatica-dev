@@ -16,23 +16,23 @@ exterior.style.width = "100%";
 
 
 
-var posible = true;
+let posibilidad = true;
 menu.onclick = function() {
-	posible ? (
+	posibilidad ? (
 			navbarItems.appendChild(menuItems),
 			menuItems.appendChild(ulNav),
 			menuItems.appendChild(exterior),
 			navbarItems.style.display = "block",
-			posible = false
+			posibilidad = false
 		) : (
 			navbarItems.style.display = "none",
-			posible = true
+			posibilidad = true
 		);
 }
 
 exterior.onclick = function() {
 			navbarItems.style.display = "none",
-			posible = true
+		posibilidad = true;
 
 }
 
@@ -41,7 +41,7 @@ window.addEventListener('resize', function() {
 	if (window.innerWidth >= 1024) {
 		navTop.appendChild(ulNav);
 		navbarItems.style.display = "none";
-		posible = true;
+		posibilidad = true;
 	}
 })
 
