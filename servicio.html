@@ -120,7 +120,7 @@
 		<h2>PROCESOS DE REMANUFACTURAZACIÓN</h3>
 		</div>
 	
-		<div class="columnas-scroll">
+		<div id="scrollPadre"  class="columnas-scroll">
 			<div class="espacio-i n1">
 				<div id="box1" class="cuadro">
 					<p>A las piezas para reparar, se le realiza un lavado externo para detectar anomalías en el cuerpo. Luego se procede a su desarme y revisión ocular a cada pieza o componente la misma para saber cuál es la falla, rotura o contaminación que genera su mal funcionamiento. </p>
@@ -135,9 +135,9 @@
 					<div id="linea" class="linea-crecedora linea1"></div>
 				</div>
 			</div>
-			<div class="espacio-d i1"><img src="./img/servicios/proceso/proceso1.jpeg" alt="proceso"></div>
+			<div class="espacio-d i1"><img id="imagen1" src="./img/servicios/proceso/proceso1.jpeg" alt="proceso"></div>
 
-			<div class="espacio-i i2"><img src="./img/servicios/proceso/proceso2.jpeg" alt="proceso"></div>
+			<div class="espacio-i i2"><img id="imagen2" src="./img/servicios/proceso/proceso2.jpeg" alt="proceso"></div>
 			<div class="medio l2">
 				<div class="rosca">
 					<img src="./svg/ruedaIcon1.svg" alt="rueda">
@@ -149,13 +149,13 @@
 			</div>
 
 			<div class="espacio-d n2">
-				<div class="cuadro">
+				<div id="box2"class="cuadro">
 					<p>El paso siguiente es el lavado intenso del cuerpo y sus componentes; que son sumergidos en un liquido desengrasante. Este proceso lleva un tiempo aproximado de una hora para lograr una limpieza profunda. Al terminar el mismo, se vuelve a controlar que no haya quedado ningún residuo. En caso de que aun queden, se pasa al lavado manual con un desengrasante en frio.</p>
 				</div>	
 			</div>
 
 			<div class="espacio-i n3">
-				<div class="cuadro"><p>Una vez limpio el despiece, pasamos a la rectificación de los cuerpos y algunos componentes, en caso que así lo requieran. Para finalizar con el proceso se realiza el granallado fino para sacar restos de oxido o manchas sin dañar o desgastar la pieza.</p></div>
+				<div id="box3"class="cuadro"><p>Una vez limpio el despiece, pasamos a la rectificación de los cuerpos y algunos componentes, en caso que así lo requieran. Para finalizar con el proceso se realiza el granallado fino para sacar restos de oxido o manchas sin dañar o desgastar la pieza.</p></div>
 			</div>
 			
 			<div class="medio l3">
@@ -167,9 +167,9 @@
 					<div class="linea-crecedora linea3"></div>
 				</div>
 			</div>
-			<div class="espacio-d i3"><img src="./img/servicios/proceso/proceso3.jpeg" alt="proceso"></div>
+			<div class="espacio-d i3"><img id="imagen3" src="./img/servicios/proceso/proceso3.jpeg" alt="proceso"></div>
 
-			<div class="espacio-i i4"><img  src="./img/servicios/proceso/proceso4.jpeg" alt="proceso"></div>
+			<div class="espacio-i i4"><img id="imagen4"  src="./img/servicios/proceso/proceso4.jpeg" alt="proceso"></div>
 			
 			<div class="medio l4">
 				<div class="rosca">
@@ -181,13 +181,13 @@
 				</div>
 			</div>
 			<div class="espacio-d n4">
-				<div class="cuadro ">
+				<div id="box4" class="cuadro ">
 					<p>Posteriormente se hace una última revisión a todo el conjunto de la pieza para certificar que esté todo en condiciones. Luego comienza en proceso de reparación y finalizamos con un testeo en nuestro banco de pruebas. </p>
 				</div>
 			</div>
 
 			<div class="espacio-i n5">
-				<div class="cuadro">
+				<div id="box5" class="cuadro">
 					<p>El proceso de banqueo varía según cada pieza, código de fabricante, especificaciones técnicas y del vehículo al que pertenece. Una vez obtenida toda esa información, pasamos a la prueba y la calibración de la pieza.</p>
 				</div>
 			</div>
@@ -201,9 +201,9 @@
 					<div class="linea-crecedora linea5"></div>
 				</div>
 			</div>
-			<div class="espacio-d i5"> <img src="./img/servicios/proceso/proceso5.jpeg" alt="proceso"> </div>
+			<div class="espacio-d i5"> <img id="imagen5"  src="./img/servicios/proceso/proceso5.jpeg" alt="proceso"> </div>
 
-			<div class="espacio-i i6"> <img src="./img/servicios/proceso/proceso6.jpeg" alt="proceso"> </div>
+			<div class="espacio-i i6"> <img id="imagen6"  src="./img/servicios/proceso/proceso6.jpeg" alt="proceso"> </div>
 			
 			<div class="medio l6">
 				<div class="rosca">
@@ -214,7 +214,7 @@
 					<div class="linea-crecedora linea6"></div>
 				</div>
 			</div>
-			<div class="espacio-d n6">
+			<div id="box6"class="espacio-d n6">
 				<div class="cuadro">
 					<p>Para nuestro control y garantía, las piezas son registradas en nuestra base de datos, en donde se vuelca la siguiente información: fecha de la reparación y entrega, tipo de pieza, estado de la misma, tipo de reparación que se utilizó, calibración, estado de la prueba y nombre del cliente. </p>
 				</div>
@@ -281,6 +281,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
 <script src="./js/navbar.js"></script>
 <script src="./js/scroll.js"></script>
+<script src="./js/scrollResponsive.js"></script>
 <script src="./js/miscServicios.js"></script>
 <script src="./js/bottom.js"></script>
 </body>
